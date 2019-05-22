@@ -1,0 +1,4 @@
+<launch>
+  <node name="position_publisher" pkg="unittest_python" type="position_publisher.py" />
+  <test test-name="position_unittest" pkg="unittest_python" type="camera_unittest.py" />
+</launch>
